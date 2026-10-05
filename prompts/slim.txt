@@ -1,0 +1,6 @@
+在 maintenance.js 加一個 overdue(records, today, limitDays) 函式：
+
+- 回傳距離上次保養超過 limitDays 天的機台，沒有保養日期的也要列進去
+- limitDays 由呼叫的人決定，不要寫死
+- 在 test/ 補測試，涵蓋超過天數、沒超過、日期空白三種情況
+- 做完跑 npm test 確認通過

@@ -1,0 +1,3 @@
+把使用者輸入轉成小寫再去掉前後空白
+Convert the user input to lowercase and trim whitespace
+const clean = input.trim().toLowerCase();
